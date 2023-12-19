@@ -47,3 +47,24 @@
 .dogSvg {
   width: 18vw;
 }
+
+@media screen and (max-width: 768px) {
+  .button {
+    grid-template-columns: 0.7fr 1fr;
+    width: 50vw;
+    height: 20vw;
+    border-radius: 10vw;
+  }
+
+  .whatsapp {
+    width: 20vw;
+  }
+
+  .buttonText {
+    font-size: 3.5vw;
+  }
+
+  .dog {
+    margin-right: 70vw;
+  }
+}
