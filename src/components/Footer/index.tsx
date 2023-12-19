@@ -25,7 +25,7 @@ const Footer: React.FC = () => {
           <h3>Campos dos Goytacazes e Região</h3>
         </div>
       </div>
-      <div className={styles.website}>www.dred.vercel.app</div>
+      <div className={styles.website}>www.dredvet.vercel.app</div>
     </footer>
   );
 };
