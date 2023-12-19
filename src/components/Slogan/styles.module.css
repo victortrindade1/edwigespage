@@ -1,5 +1,5 @@
 .slogan {
-  margin-bottom: 15vw;
+  /* margin-bottom: 15vw; */
   margin-top: 15vw;
   width: 100%;
   display: flex;
@@ -7,8 +7,8 @@
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  padding-left: 15%;
-  padding-right: 15%;
+  /* padding-left: 15%; */
+  padding-right: 30vw;
   color: #f9f9f9;
   font-family: var(--font-rubik);
 }

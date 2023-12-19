@@ -1,7 +1,6 @@
 .background {
-  background: #f9f9f9 url("../assets/svg/background.svg") no-repeat top;
+  background: #bbd6e9ff url("../assets/svg/background.svg") no-repeat top;
   background-size: cover;
-  min-height: calc(100vh - 100px);
   display: flex;
   flex: 1;
   flex-direction: column;
