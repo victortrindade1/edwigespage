@@ -1,0 +1,113 @@
+@media screen and (max-width: 768px) {
+  .container {
+    font-size: 4vw;
+  }
+
+  .icon {
+    width: 12vw;
+    height: 12vw;
+    border-radius: 6vw;
+  }
+
+  .div1 {
+    width: 90%;
+  }
+
+  .div2 {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    font-size: 3vw;
+  }
+
+  .icon {
+    width: 9vw;
+    height: 9vw;
+    border-radius: 4.5vw;
+  }
+
+  .div1 {
+    width: 70%;
+  }
+
+  .div2 {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .container {
+    font-size: 2vw;
+  }
+
+  .icon {
+    width: 6vw;
+    height: 6vw;
+    border-radius: 3vw;
+  }
+
+  .div1 {
+    width: 50%;
+  }
+
+  .div2 {
+    width: 50%;
+  }
+}
+
+.container {
+  margin-top: 15vw;
+  margin-bottom: 15vw;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  color: #f9f9f9;
+}
+
+.div1 {
+  display: flex;
+  min-width: 50vw;
+}
+
+.div2 {
+  display: flex;
+  justify-content: flex-end;
+  min-width: 50vw;
+}
+
+.addressContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.locationContainer {
+  display: flex;
+  align-items: center;
+}
+
+.addressText {
+  margin-left: 20px;
+
+  color: #f9f9f9;
+  font-family: var(--font-rubik);
+}
+
+.locationText {
+  margin-right: 20px;
+  color: #f9f9f9;
+  font-family: var(--font-rubik);
+}
+
+.icon {
+  color: #f9f9f9;
+  border: solid 5px #3b55b7;
+  background-color: #3b55b7;
+  margin: 5px;
+}

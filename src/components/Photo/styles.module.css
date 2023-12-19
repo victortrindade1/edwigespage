@@ -1,0 +1,23 @@
+.photocontainer {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+
+  width: 50vw;
+  max-width: 500px;
+}
+
+.photo {
+  width: 96%;
+  -webkit-mask: url("../../assets/svg/maskphoto.svg") center/contain no-repeat;
+  mask: url("../../assets/svg/maskphoto.svg") center/contain no-repeat;
+  z-index: 1;
+  position: absolute;
+  top: -8px;
+  right: 0px;
+}
+
+.maskborder {
+  width: 100%;
+  position: absolute;
+}

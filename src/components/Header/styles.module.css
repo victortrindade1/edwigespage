@@ -1,0 +1,16 @@
+.logocontainer {
+  width: 100%;
+  background-color: #bbd6e9ff;
+  padding: 20px;
+  height: 100px;
+  padding-bottom: 30vw;
+}
+
+.logo {
+  width: 30vw;
+  max-width: 200px;
+}
+
+.title {
+  display: none;
+}

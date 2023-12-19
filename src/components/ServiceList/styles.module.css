@@ -1,0 +1,71 @@
+.serviceList {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15vw;
+  margin-top: 15vw;
+}
+
+.itemContainer {
+  height: 15vw;
+  width: 15vw;
+  border: solid 4px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: border-radius 0.5s;
+}
+
+.itemContainer:hover {
+  border-radius: 8vw;
+  transition: border-radius 0.5s;
+}
+.itemContainer:click {
+  border-radius: 8vw;
+  transition: border-radius 0.5s;
+}
+
+.serviceIcon {
+  width: 8vw;
+  height: 8vw;
+}
+
+.itemLabel {
+  font-size: 3vw;
+  padding-top: 5px;
+  font-weight: bold;
+  width: 15vw;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.itemConsultas {
+  color: #bf93b8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.itemExames {
+  color: #04bf8a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.itemVacinas {
+  color: #d9a171;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.itemCirurgias {
+  color: #92b2ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

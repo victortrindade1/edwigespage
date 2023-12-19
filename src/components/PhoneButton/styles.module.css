@@ -1,0 +1,49 @@
+.phoneContainer {
+  margin-top: 15vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.phoneTitle {
+  font-size: 4vw;
+  color: #f9f9f9;
+  font-family: var(--font-rubik);
+  margin-bottom: 100px;
+}
+
+.button {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+  align-items: center;
+  color: #f9f9f9;
+  width: 30vw;
+  height: 7vw;
+  border-radius: 5vw;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #3b55b7;
+}
+
+.button:hover {
+  background-color: #6f8bf2;
+  cursor: pointer;
+}
+
+.whatsapp {
+  width: 7vw;
+}
+
+.buttonText {
+  font-size: 2.5vw;
+  margin-left: 1vw;
+}
+
+.dog {
+  margin-right: 50vw;
+  margin-top: 2vw;
+}
+
+.dogSvg {
+  width: 18vw;
+}
