@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 import { rubik } from "./fonts";
 // import "animate.css/animate.min.css";
 import "./globals.css";
@@ -15,7 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang='pt-BR' className={`${rubik.variable}`}>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
