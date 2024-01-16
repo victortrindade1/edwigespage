@@ -7,7 +7,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Dr. Ed",
-  description: "O melhor cuidado com seu pet",
+  description:
+    "O melhor cuidado com seu pet. Atendimento à domicílio em Campos dos Goytacazes e região. Contato: (22) 99782-7997. Agende já uma consulta!",
 };
 
 export default function RootLayout({

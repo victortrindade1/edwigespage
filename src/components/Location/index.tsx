@@ -10,7 +10,7 @@ const Location: React.FC = () => {
   return (
     <div className={styles.container}>
       <div className={styles.div1}>
-        <div className={styles.addressContainer}>
+        <div className={styles.addressContainer} data-nosnippet>
           <Image src={addressicon} alt={"address"} className={styles.icon} />
           <div className={styles.addressText}>Atendimentos a domicílio</div>
         </div>

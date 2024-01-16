@@ -8,8 +8,8 @@ import maskborder from "@/assets/svg/maskborder.svg";
 
 const Photo: React.FC = () => {
   return (
-    <div className={styles.photocontainer}>
-      <Image src={photo} alt={"Dr. Ed"} className={styles.photo} priority />
+    <div className={styles.photocontainer} data-nosnippet>
+      <Image src={photo} alt={"Dr. Ed"} className={styles.photo} />
       <Image
         src={maskborder}
         alt={"Mask border"}

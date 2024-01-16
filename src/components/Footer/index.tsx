@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
   return (
     <footer className={styles.footerContainer}>
       <div className={styles.footerBody}>
-        <div className={styles.logoContainer}>
+        <div className={styles.logoContainer} data-nosnippet>
           <Image src={logo} alt={"Logo"} className={styles.logo} />
         </div>
         <div className={styles.descriptionContainer}>
